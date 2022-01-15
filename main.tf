@@ -15,3 +15,8 @@ resource "azurerm_resource_group" "example" {
   name     = "Sheo-Vikesh-RG"
   location = "West Europe"
 }
+
+resource "azurerm_resource_group" "example2" {
+  name     = "Sheo-Vikesh2-RG"
+  location = "West Europe"
+}
